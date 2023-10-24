@@ -38,14 +38,7 @@ namespace RestfulApiWeb.Controllers
             //return null;
         }
 
-        // GET: api/EmployeeData/5 test
-        public testEmpDt_tbl Getemployee(int id)
-        {
-            //return "value";
-            EmployeeDBRep dBRep = new EmployeeDBRep();
-            return dBRep.GetEmpRecord(id);
-            //return null;
-        }
+       
 
 
         //// GET: api/EmployeeData/5
